@@ -166,14 +166,32 @@
   /*
    * The signature form. Small dishes on a Korean table are round; mains are not. Every
    * banchan-scale image is masked to a circle, very slightly irregular because handmade
-   * ceramics are, and rimmed the way glazed ceramic catches light.
+   * ceramics are.
+   *
+   * The rim is deliberately heavy — a thin hairline on a circle floating in black reads
+   * as a sphere, while a substantial rim reads as a plate. Three layers do it: a bright
+   * inner highlight, a dark gap, then a solid gold band, so the edge has the thickness
+   * of a glazed ceramic lip rather than the thinness of an outline.
    */
   .dish {
+    position: relative;
     border-radius: 49% 51% 52% 48% / 51% 49% 51% 49%;
     overflow: hidden;
     box-shadow:
-      inset 0 0 0 1px rgb(255 255 255 / 0.09),
-      0 30px 60px -28px rgb(0 0 0 / 0.95);
+      inset 0 0 0 2px rgb(255 255 255 / 0.16),
+      0 0 0 1px rgb(var(--obsidian)),
+      0 0 0 4px rgb(var(--gold) / 0.55),
+      0 0 0 5px rgb(255 255 255 / 0.06),
+      0 26px 56px -24px rgb(0 0 0 / 0.95);
+  }
+
+  /* The same plate rim in ivory, for places where gold would be too much repetition. */
+  .dish-plain {
+    box-shadow:
+      inset 0 0 0 2px rgb(255 255 255 / 0.14),
+      0 0 0 1px rgb(var(--obsidian)),
+      0 0 0 4px rgb(var(--ivory) / 0.22),
+      0 26px 56px -24px rgb(0 0 0 / 0.95);
   }
 
   /* Gold hairline under a heading. Used once per page at most. */

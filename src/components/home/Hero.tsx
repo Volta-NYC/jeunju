@@ -3,50 +3,43 @@ import { Photo } from '@/components/media/Photo';
 import { business } from '@/content/business';
 
 /**
- * The 한상 (hansang) hero — a Korean set table, seen from above.
+ * The 한상 (hansang) hero — a Korean set table.
  *
- * One large bowl anchors the composition and small round banchan dishes settle in around
- * it on load, staggered, the way dishes actually land on a table. This is the site's
- * signature: the layout grammar is the table itself, and it restates the one thing every
- * review source agrees on — that the small dishes keep coming.
+ * The grammar is still one large dish among many small ones, which is the thing every
+ * review source agrees on: the banchan keeps coming. But it is built as a mosaic of full
+ * photographs rather than circular crops on a ring — floating circles at varying sizes
+ * over a radial glow read as planets in orbit, not as a table.
  *
- * The whole sequence is CSS keyframes with per-element delays, so it costs no JavaScript
- * and is skipped entirely under prefers-reduced-motion.
+ * The whole load sequence is CSS keyframes with per-element delays, so it costs no
+ * JavaScript and is skipped entirely under prefers-reduced-motion.
  */
 
 /**
- * Small dishes, set around the main bowl on a ring.
- *
- * Positions are percentages of the square container, so the arrangement scales intact at
- * every breakpoint. They sit on a radius of ~38% from centre — far enough out that none
- * of them ever crowds the 52%-wide bowl at the middle, which is what a set table
- * actually looks like from above.
+ * The small dishes, in the order they settle onto the table.
+ * `area` is the CSS grid placement inside the 3x3 mosaic.
  */
 const BANCHAN = [
-  { id: 'atmos-banchan', alt: 'A spread of Korean side dishes', top: '5%', left: '59%', delay: 900 },
-  { id: 'kimchi-jeon', alt: 'Kimchi pancake', top: '44%', left: '76%', delay: 1080 },
-  { id: 'gyeran-mari', alt: 'Rolled Korean egg omelet', top: '77%', left: '49%', delay: 1260 },
-  { id: 'jjin-mandu', alt: 'Steamed dumplings', top: '61%', left: '7%', delay: 1440 },
-  { id: 'atmos-table', alt: 'A set Korean table', top: '15%', left: '9%', delay: 1620 },
+  { id: 'atmos-banchan', alt: 'A spread of Korean side dishes', area: '1 / 3 / 2 / 4', delay: 900 },
+  { id: 'kimchi-jeon', alt: 'Kimchi pancake', area: '2 / 3 / 3 / 4', delay: 1040 },
+  { id: 'jjin-mandu', alt: 'Steamed dumplings', area: '3 / 1 / 4 / 2', delay: 1180 },
+  { id: 'gyeran-mari', alt: 'Rolled Korean egg omelet', area: '3 / 2 / 4 / 3', delay: 1320 },
+  { id: 'atmos-table', alt: 'A set Korean table', area: '3 / 3 / 4 / 4', delay: 1460 },
 ];
-
-/** Diameter of every small dish, as a percentage of the container. */
-const DISH_SIZE = '22%';
 
 export function Hero() {
   return (
     <section className="grain vignette relative overflow-hidden bg-obsidian pb-28 pt-32 sm:pt-36 lg:pb-36">
       {/*
-        One lamp over one table. On a ground this dark the light pool is most of the
-        atmosphere, so it breathes rather than sitting still.
+        One lamp over one table. Kept wide and low-contrast — a tight radial behind round
+        images is exactly what made the old composition read as a sun with planets.
       */}
       <div
         aria-hidden
-        className="animate-glow pointer-events-none absolute left-1/2 top-[40%] h-[52rem] w-[52rem] -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl lg:left-[68%]"
-        style={{ background: 'radial-gradient(circle, rgb(var(--gold)) 0%, transparent 66%)' }}
+        className="animate-glow pointer-events-none absolute left-1/2 top-1/2 h-[60rem] w-[60rem] -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl lg:left-[70%]"
+        style={{ background: 'radial-gradient(circle, rgb(var(--gold)) 0%, transparent 70%)' }}
       />
 
-      <div className="relative mx-auto grid max-w-shell items-center gap-16 gutter lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-10">
+      <div className="relative mx-auto grid max-w-shell items-center gap-16 gutter lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-12">
         {/* ---- the word ---- */}
         <div className="relative z-10">
           <p
@@ -114,62 +107,35 @@ export function Hero() {
           </dl>
         </div>
 
-        {/* ---- the table ---- */}
-        <div className="relative mx-auto aspect-square w-full max-w-[26rem] sm:max-w-[30rem]">
-          {/* the table — a 소반, the round low table this food is served on */}
+        {/*
+          ---- the table ----
+          A 3x3 mosaic: the main dish holds the top-left 2x2, the banchan fill the
+          remaining cells. Same one-large-among-many idea, laid out as a table rather
+          than as an orbit.
+        */}
+        <div className="relative mx-auto grid w-full max-w-[30rem] grid-cols-3 grid-rows-3 gap-2.5 sm:max-w-[34rem] sm:gap-3">
           <div
-            aria-hidden
-            className="animate-settle absolute inset-[3%] rounded-full border border-white/[0.06] bg-white/[0.015]"
-            style={{ animationDelay: '400ms' }}
-          />
-
-          {/*
-            The main bowl. Placed with top/left percentages rather than a centring
-            translate — the settle keyframes animate `transform`, which would override a
-            Tailwind -translate-x-1/2 and leave the bowl off-centre.
-          */}
-          <div
-            className="animate-settle dish absolute left-[24%] top-[24%] aspect-square w-[52%]"
-            style={{ animationDelay: '620ms' }}
+            className="animate-settle overflow-hidden rounded-sm ring-1 ring-white/10"
+            style={{ gridArea: '1 / 1 / 3 / 3', animationDelay: '420ms' }}
           >
             <Photo
               id="hero-stew"
               alt="A bubbling pot of kimchi stew"
               priority
               className="h-full w-full"
-              sizes="(max-width: 1024px) 60vw, 30vw"
+              sizes="(max-width: 1024px) 62vw, 30vw"
             />
           </div>
 
-          {/* steam, rising off the bowl — the one purely atmospheric flourish */}
-          <div
-            aria-hidden
-            className="pointer-events-none absolute left-1/2 top-[26%] -translate-x-1/2 motion-reduce:hidden"
-          >
-            {[0, 1, 2].map((i) => (
-              <span
-                key={i}
-                className="animate-steam absolute block h-16 w-[2px] rounded-full bg-gradient-to-t from-transparent via-ivory/30 to-transparent"
-                style={{ left: `${i * 18 - 18}px`, animationDelay: `${i * 1.6}s` }}
-              />
-            ))}
-          </div>
-
-          {/* the small dishes */}
           {BANCHAN.map((dish) => (
             <div
               key={dish.id}
-              className="animate-settle dish absolute aspect-square"
-              style={{
-                top: dish.top,
-                left: dish.left,
-                width: DISH_SIZE,
-                animationDelay: `${dish.delay}ms`,
-              }}
+              className="animate-settle aspect-square overflow-hidden rounded-sm ring-1 ring-white/10"
+              style={{ gridArea: dish.area, animationDelay: `${dish.delay}ms` }}
             >
               {/* Eager: these sit in the hero, so lazy-loading them would show the blur
                   placeholder during the settle animation. */}
-              <Photo id={dish.id} alt={dish.alt} priority className="h-full w-full" sizes="20vw" />
+              <Photo id={dish.id} alt={dish.alt} priority className="h-full w-full" sizes="18vw" />
             </div>
           ))}
         </div>
