@@ -1,0 +1,226 @@
+PHOTO SHOT LIST — JeunJu Korean Restaurant website
+Generated 2026-08-15 by scripts/photo-needs.mjs
+==============================================================================
+
+WHY THIS FILE EXISTS
+
+The research material this site was built from contained no photography at all —
+no logo, no food photos, no interior shots. Every photograph currently on the
+site is an openly-licensed stand-in from Wikimedia Commons showing the *type* of
+dish, not JeunJu's own food. They are credited at /credits.
+
+They are good enough to launch behind, and wrong to keep. Replace them with the
+shots below and the site becomes genuinely the restaurant's own.
+
+HOW TO REPLACE A PHOTO
+
+  1. Name the file after the id in the "id" column below, e.g. gamjatang.jpg
+  2. Drop it in .media-cache/replacements/
+  3. Run: node scripts/harvest-media.mjs
+     (local replacements are picked up ahead of anything downloaded)
+  4. Delete the corresponding entry from /credits once nothing sourced remains.
+
+SHOOTING NOTES
+
+  · Overhead (flat-lay) for anything in a bowl. These are soups and stews — a
+    three-quarter angle hides the contents, which is the whole point of the dish.
+  · Natural light, no flash, no coloured gels. The site sits on a true obsidian
+    ground with a champagne-gold accent, so warm-toned photographs glow on it and
+    anything shot cool or grey goes flat.
+  · Dark, uncluttered backgrounds photograph best here — the design lets food sit
+    in a pool of light, and a bright busy background fights that.
+  · Shoot on the restaurant's real tableware and real tables. Do not style with
+    props the restaurant does not own.
+  · Landscape or square. Portrait crops get cropped anyway.
+  · Minimum 1600px on the long edge. Straight out of a recent phone is fine.
+  · Include the banchan wherever it comes with the dish. It is the selling point.
+
+
+PRIORITY 1 — ATMOSPHERE AND PEOPLE
+------------------------------------------------------------------------------
+None of these exist in any form. They matter more than the dish photos, because
+a stand-in dish photo is merely generic — a missing owner portrait is a hole.
+
+  [ ] The awning
+        The exterior awning with the founder's photograph and the painted year.
+        This is the most distinctive branding the restaurant has and there is
+        currently no usable photograph of it. Shoot it straight-on in daylight
+        and again at dusk with the sign lit.
+
+  [ ] Sophia Cho
+        A portrait of the owner, in the dining room or the kitchen. Natural
+        light, unposed. The story page is built around her and currently runs
+        without a photograph of her.
+
+  [ ] Eunhae Bae
+        Any archival photograph of the founder — a print of the awning photo, or
+        a family photo from the early years. A scan is fine.
+
+  [ ] The dining room
+        Wide shot of the room with tables set. Shoot when it is full, or at
+        least half-set, not empty.
+
+  [ ] A full table
+        Overhead shot of one complete meal: a main, the rice, and every banchan
+        that comes with it, on the real table. THIS IS THE MOST IMPORTANT SHOT —
+        the whole homepage is built around the set table and the free-refill
+        promise.
+
+  [ ] Banchan close-up
+        The small dishes alone, overhead, tightly framed. Several variations if
+        the banchan rotates.
+
+  [ ] Hands making noodles
+        Kalguksu being rolled and cut, or sujebi being torn into the pot. The
+        hand-work is what the reviews single out and there is no photograph of
+        it anywhere.
+
+  [ ] The kitchen
+        A working shot — steam, pots on the range. Does not need to be tidy.
+
+  [ ] The street
+        150th Street outside, showing the Food Alley context.
+
+
+PRIORITY 2 — SIGNATURE DISHES
+------------------------------------------------------------------------------
+The dishes review sources name most often. Shoot these first and shoot them well;
+they carry the homepage.
+
+  [ ] Pork Bone Stew  감자탕
+        id: gamjatang
+  [ ] Kimchi Stew  김치찌개
+        id: kimchi-jjigae
+  [ ] Bean Sprout Soup  콩나물국밥
+        id: kongnamul-gukbap
+  [ ] Knife-Cut Noodle Soup  칼국수
+        id: kalguksu
+  [ ] Hand-Torn Noodle Soup  수제비
+        id: sujebi
+
+
+PRIORITY 3 — REMAINING MENU
+------------------------------------------------------------------------------
+31 dishes currently on a stand-in photograph.
+
+  [ ] Stir-Fried Pork with Lettuce  쌈밥정식
+        id: ssambap
+  [ ] Spicy Braised Chicken Stew  닭도리탕
+        id: dakdoritang
+  [ ] LA Galbi & Soybean Paste Stew  LA갈비 + 된장찌개 세트
+        id: la-galbi
+  [ ] Bulgogi  불고기
+        id: bulgogi
+  [ ] Bibimbap  비빔밥
+        id: bibimbap
+  [ ] Grilled Mackerel & Soybean Paste Stew  고등어구이 + 된장찌개
+        id: godeungeo
+  [ ] Grilled Hairtail & Soybean Paste Soup  갈치구이 + 된장찌개
+        id: galchi
+  [ ] Grilled Croaker & Soybean Paste Stew  조기구이 + 된장찌개
+        id: jogi
+  [ ] Grilled Whole Squid & Soybean Paste Stew  통오징어구이 + 된장찌개
+        id: ojingeo
+  [ ] Ginseng Chicken Soup  삼계탕
+        id: samgyetang
+  [ ] Spicy Beef Soup  따로국밥
+        id: ttaro-gukbap
+  [ ] Hangover Soup  우거지해장국
+        id: haejangguk
+  [ ] Soft Tofu Soup with Seafood  해물순두부
+        id: haemul-sundubu
+  [ ] Beef Short Rib Soup  갈비탕
+        id: galbitang
+  [ ] Army Stew  부대찌개
+        id: budae-jjigae
+  [ ] Roasted Pork Belly with Oysters  굴보쌈
+        id: gul-bossam
+  [ ] Stir-Fried Pork with Kimchi  김치제육볶음
+        id: kimchi-jeyuk
+  [ ] Spicy Braised Pork Back Bone  매운등뼈찜
+        id: maeun-deungppyeo
+  [ ] Spicy Marinated Pork Belly  양념대패삼겹구이
+        id: daepae-samgyeop
+  [ ] Pork Belly & Octopus Bulgogi  쭈삼불고기
+        id: jjusam-bulgogi
+  [ ] Grilled Beef Tripe  소막창구이
+        id: makchang
+  [ ] Oyster Pancake  굴전
+        id: gul-jeon
+  [ ] Braised Chicken Feet  뼈있는닭발
+        id: dakbal
+  [ ] Korean Hotpot  전골
+        id: jeongol
+  [ ] Sour Kimchi Hotpot  묵은지전골
+        id: mugeunji-jeongol
+  [ ] Spicy Chewy Noodles  쫄면
+        id: jjolmyeon
+  [ ] Seafood Scallion Pancake  해물파전
+        id: haemul-pajeon
+  [ ] Kimchi Pancake  김치전
+        id: kimchi-jeon
+  [ ] Steamed Dumplings  찐만두
+        id: jjin-mandu
+  [ ] Fried Dumplings  군만두
+        id: gun-mandu
+  [ ] Korean Egg Omelet  계란말이
+        id: gyeran-mari
+
+
+NO PHOTOGRAPH AT ALL
+------------------------------------------------------------------------------
+These render as a typographic card. A photo would be an upgrade, not a fix.
+
+  [ ] Mains  식사류
+  [ ] Soups & Stews  찌개 및 탕류
+  [ ] JeunJu Specials  전주 스페셜 메뉴
+  [ ] Noodles  국수류
+  [ ] To Start  곁들임 메뉴
+  [ ] Drinks  음료
+  [ ] Extras  추가메뉴
+  [ ] White Rice  공기밥
+
+
+SEPARATELY — THINGS TO CONFIRM WITH SOPHIA CHO
+------------------------------------------------------------------------------
+These are unresolved in the research and the site currently works around each
+one. Each is a one-question fix.
+
+  [ ] OPENING HOURS. Google says 7:00 AM-10:00 PM, DoorDash says 10:00 AM-9:40 PM,
+      an older Yelp cache says 10:00 AM-10:00 PM. The site currently shows the
+      Google range next to a "call to confirm" note, and publishes no hours to
+      search engines at all. Fix in src/content/business.ts -> hours.
+
+  [ ] FOUNDING YEAR. The awning says 1985; Facebook and the listings say 1999.
+      The story page currently tells this as a story rather than picking one.
+      Ask what 1985 refers to. Fix in src/content/business.ts -> founded.
+
+  [ ] DOMAIN. Three surfaced: jeunjukoreanfood.com (live, blocked to crawlers),
+      jeunjurestaurant.com (parked/for sale), jeunjuauthentichome.com (an auto-
+      generated Google mirror). Ask which she actually owns before launch.
+      Fix in src/content/business.ts -> SITE_URL.
+
+  [ ] NAME SPELLING. "Jeunju", "JeunJu" and "Jeun Ju" are all in use. The site
+      standardises on "JeunJu Korean Restaurant". Confirm she is happy with it.
+
+  [ ] MISSING PRICES. 8 dishes have no published price and show "Ask us":
+      grilled mackerel, grilled croaker, chicken feet, both hotpots, kalguksu,
+      sujebi, egg omelet. Kalguksu and sujebi are the two most-praised dishes on
+      the menu and should not be launched priceless.
+
+  [ ] MODIFIERS. Spice levels, protein swaps and portion upcharges could not be
+      retrieved — delivery apps hide them until checkout. Pull from the live
+      ordering flow.
+
+  [ ] OFF-MENU / SEASONAL ITEMS. The site lists these under "Ask about" on the
+      menu page: fishcake sujebi, anchovy sujebi, soft tofu kalguksu, sesame
+      kalguksu, bibim guksu, tteokbokki, bossam. Confirm which are current.
+
+  [ ] EMAIL ADDRESS. None was found anywhere. The site has no contact form and
+      points everything at the phone number as a result.
+
+  [ ] DOORDASH / UBER EATS LINKS. Presence is confirmed but no direct storefront
+      URLs were captured, so the site names the apps without linking out.
+
+  [ ] HEALTH GRADE. Deliberately not published — no official NYC DOHMH grade was
+      confirmed. Do not add one without the Health Department's own lookup.

@@ -1,0 +1,1795 @@
+{
+  "generatedAt": "2026-08-15T03:54:46.959Z",
+  "note": "Placeholder reference photography from Wikimedia Commons. These are NOT photos of JeunJu's own food. Replace with the client's photography per PHOTO-NEEDS.txt.",
+  "missing": [],
+  "assets": {
+    "hero-stew": {
+      "id": "hero-stew",
+      "kind": "atmosphere",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/hero-stew-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/hero-stew-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/hero-stew-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/hero-stew-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/hero-stew-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/hero-stew-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAgCdASoQAAwAA4BaJaACdAEPAveOlDjglAD+6ViOVRQzbczz7S+N7mP6BaGWsI+n4dDiuq28WKYAAAA=",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Kimchi jjigae - Kogi, Brighton 2023-11-15.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKimchi%20jjigae%20-%20Kogi%2C%20Brighton%202023-11-15.jpg",
+        "author": "Andy Li",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "atmos-banchan": {
+      "id": "atmos-banchan",
+      "kind": "atmosphere",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/atmos-banchan-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/atmos-banchan-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/atmos-banchan-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/atmos-banchan-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/atmos-banchan-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/atmos-banchan-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JYgCdMoRwABzJshW7csAA/uPQWeFPMKy7gIiucSfkiGW3NsyyF66wmoDb6eJSkgl37EDFAesios3hRBUC0wAA",
+      "aspectRatio": 0.8,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Banchan at Hana Restaurant, Milan, 2023.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3ABanchan%20at%20Hana%20Restaurant%2C%20Milan%2C%202023.jpg",
+        "author": "Chiyako92",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    "atmos-jeonju": {
+      "id": "atmos-jeonju",
+      "kind": "atmosphere",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/atmos-jeonju-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/atmos-jeonju-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/atmos-jeonju-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/atmos-jeonju-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/atmos-jeonju-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/atmos-jeonju-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoQAAsAA4BaJQAAXNa8/bAA/DWYzjbJ4/7DvnbFtAmdSMAA",
+      "aspectRatio": 1.5035,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Jeonju Hanok Maeul 02.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AJeonju%20Hanok%20Maeul%2002.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "atmos-onggi": {
+      "id": "atmos-onggi",
+      "kind": "atmosphere",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/atmos-onggi-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/atmos-onggi-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/atmos-onggi-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/atmos-onggi-960.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADQAQCdASoQAAwAA4BaJZgC7H8AF9oU7AD+WHLBnC7MeCiH6R8Km4fqnCUnzy6yVr0ff6kgAAA=",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean Onggi pottery ceramics use in garden.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean%20Onggi%20pottery%20ceramics%20use%20in%20garden.jpg",
+        "author": "Lightbearer03",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    "atmos-table": {
+      "id": "atmos-table",
+      "kind": "atmosphere",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/atmos-table-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/atmos-table-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/atmos-table-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/atmos-table-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/atmos-table-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/atmos-table-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAwAA4BaJZQCdACIGIwOAAD+gQ476UVAdSzragu5Z/S5UuJ2Hlf1OWlAAA==",
+      "aspectRatio": 1.3833,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Christmas table (Serbian cuisine).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AChristmas%20table%20(Serbian%20cuisine).jpg",
+        "author": "Petar Milošević",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    "ssambap": {
+      "id": "ssambap",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/ssambap-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/ssambap-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/ssambap-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/ssambap-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/ssambap-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/ssambap-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAwAA4BaJbACdAENq/iLAJTAAP7Q+thJXwhWhVpRyxIJ6yEd9/4JnfIdfU1/4HuWVLbdF4AAAA==",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean barbeque-Galbi-05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean%20barbeque-Galbi-05.jpg",
+        "author": "by psd (flickr)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    "dakdoritang": {
+      "id": "dakdoritang",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/dakdoritang-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/dakdoritang-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/dakdoritang-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/dakdoritang-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/dakdoritang-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/dakdoritang-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAwAA4BaJaACdAEf6JMQOoAA995ejBp0T6M+Rhh9N4/H7M80Wcwiv4dsfKvDHtb1ny2EAAA=",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean.food-Dakbokemtang-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean.food-Dakbokemtang-01.jpg",
+        "author": "stuart_spivack (a flickr user)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "la-galbi": {
+      "id": "la-galbi",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/la-galbi-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/la-galbi-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/la-galbi-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/la-galbi-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/la-galbi-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/la-galbi-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAwAA4BaJaACdAC9AzY6IzAAAP7AU5UMR0107NwuInqDHor0ik2abpD9AoLWXIvZfXkwzaSocCTMGQAAAA==",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean.food-Galbi-03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean.food-Galbi-03.jpg",
+        "author": "ayustety (a flickr user)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "bulgogi": {
+      "id": "bulgogi",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/bulgogi-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/bulgogi-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/bulgogi-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/bulgogi-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/bulgogi-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/bulgogi-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAwAA4BaJYgCdADwkbCMQAD9eAqM7Tsyzrx/1Lsz374D3eXLkz4cPk/T6bhUkwZuL92kAAA=",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean.cuisine-Bulgogi-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean.cuisine-Bulgogi-01.jpg",
+        "author": "by ayustety",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "bibimbap": {
+      "id": "bibimbap",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/bibimbap-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/bibimbap-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/bibimbap-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/bibimbap-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/bibimbap-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/bibimbap-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAwCdASoQABUAPu1kqU2ppaQiMAgBMB2JaAB3AARVoH+QZWy1upAA/uc1vYJDX07V77UURRUAHAy9X+e3+9mZpK8WFhdFr/9KR0nlZ93Q3jPq3Sqy7OIs+x9JAAAA",
+      "aspectRatio": 0.75,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Bokkeum Bibimbap and Little Piggy Bao Bun by Bao Bun Brighton.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3ABokkeum%20Bibimbap%20and%20Little%20Piggy%20Bao%20Bun%20by%20Bao%20Bun%20Brighton.jpg",
+        "author": "Andy Li",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "godeungeo": {
+      "id": "godeungeo",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/godeungeo-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/godeungeo-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/godeungeo-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/godeungeo-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/godeungeo-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/godeungeo-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAkAA4BaJYwCdAD2POrQ6eAA/SehInpmzDpsgkUGw5xYainhyhonLEVs0gAA",
+      "aspectRatio": 1.7204,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean cuisine-Godeungeo gui-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean%20cuisine-Godeungeo%20gui-01.jpg",
+        "author": "by david&amp;alina at Flickr",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "galchi": {
+      "id": "galchi",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/galchi-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/galchi-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/galchi-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/galchi-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/galchi-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/galchi-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAkAA4BaJbACdH8ADxyl+GgAzjGaMmqcqKcDWDbMO2W+vaGTJqZ7pHmQG185tCfBqJgKcwAAAA==",
+      "aspectRatio": 1.7712,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Galchi-gui 1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AGalchi-gui%201.jpg",
+        "author": "anokarina",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "jogi": {
+      "id": "jogi",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/jogi-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/jogi-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/jogi-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/jogi-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/jogi-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/jogi-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoQAAsAA4BaJZQCdAENq3ltRnAAAP6qGRDI7mNpaTAZoIDWbwgN9OtZDT8m/WhrewUIAA==",
+      "aspectRatio": 1.5,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Jogi-gui.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AJogi-gui.jpg",
+        "author": "bunkdong yu",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "ojingeo": {
+      "id": "ojingeo",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/ojingeo-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/ojingeo-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/ojingeo-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/ojingeo-960.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAwAA4BaJQBOgB8jbqqUqAD+wcf0SVWwBkSwXChYaawG9Wp1OX+PwG0AAA==",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean snack-Gwipo and ojingeo gui-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean%20snack-Gwipo%20and%20ojingeo%20gui-01.jpg",
+        "author": "Ian Armstrong",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "ttaro-gukbap": {
+      "id": "ttaro-gukbap",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/ttaro-gukbap-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/ttaro-gukbap-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/ttaro-gukbap-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/ttaro-gukbap-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/ttaro-gukbap-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/ttaro-gukbap-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoQAAwAA4BaJYwC7ABhCKRAAPzO6ccclABZ7nPY9M5H94BMtDgop3cPYeAAAA==",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Ttaro gukbap 2.JPG",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3ATtaro%20gukbap%202.JPG",
+        "author": "hyolee2",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    "samgyetang": {
+      "id": "samgyetang",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/samgyetang-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/samgyetang-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/samgyetang-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/samgyetang-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/samgyetang-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/samgyetang-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAA0AA4BaJQBdgCHIT/rK6mQA/vIyzTXRTX4STqVAMu61u5VKW3GN2mbk9AO8Krp9dYO9Y7GnR4IAAAA=",
+      "aspectRatio": 1.2395,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Samgye-tang 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3ASamgye-tang%202.jpg",
+        "author": "wizdata",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "kongnamul-gukbap": {
+      "id": "kongnamul-gukbap",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/kongnamul-gukbap-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/kongnamul-gukbap-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/kongnamul-gukbap-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/kongnamul-gukbap-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/kongnamul-gukbap-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/kongnamul-gukbap-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAQCdASoQAAsAA4BaJZACdADv/qzAAP5i34AVkxqH6Y0ErIxTD7NYYS5mcsVUgaS8qOGoTfR3gAAA",
+      "aspectRatio": 1.5,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Kongnamul gukbap 20230408 001.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKongnamul%20gukbap%2020230408%20001.jpg",
+        "author": "Mobius6",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    "haemul-sundubu": {
+      "id": "haemul-sundubu",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/haemul-sundubu-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/haemul-sundubu-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/haemul-sundubu-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/haemul-sundubu-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/haemul-sundubu-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/haemul-sundubu-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAsAA4BaJbACdAEO+9uwaQAA/viTjigre17bdEWzVyY76NoUNNh/bhZQk0KeT5/3NY4ecRB6wdpNwcJSFd25q9gAAA==",
+      "aspectRatio": 1.5035,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean stew-Sundubu jjigae-05.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean%20stew-Sundubu%20jjigae-05.jpg",
+        "author": "by titanium22",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "haejangguk": {
+      "id": "haejangguk",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/haejangguk-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/haejangguk-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/haejangguk-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/haejangguk-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/haejangguk-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/haejangguk-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoQAAsAA4BaJYwCdAEfu6r4BEAA+EIU4lcSJJeLXAC9J/FsqT8v4GlBAAA=",
+      "aspectRatio": 1.5,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Haejangguk (hangover soup).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AHaejangguk%20(hangover%20soup).jpg",
+        "author": "sangmins",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "galbitang": {
+      "id": "galbitang",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/galbitang-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/galbitang-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/galbitang-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/galbitang-960.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAwAgCdASoQABAAA4BaJYgCdAEfk9skDQdhxAD+5pi4Ep7BMd5Q5i5CGn+BidfLRKxmNFER+AVSZfjV6BwaGtG6JKQAAA==",
+      "aspectRatio": 1,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Galbi-tang 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AGalbi-tang%202.jpg",
+        "author": "Debbie Tingzon",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    "gamjatang": {
+      "id": "gamjatang",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/gamjatang-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/gamjatang-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/gamjatang-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/gamjatang-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/gamjatang-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/gamjatang-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAsAA4BaJQBOgA+ZTWK6AP6sQMk03psW+0A4uRQg5JkxonctZDVFDhv4a7cUFKiRCnMAAAA=",
+      "aspectRatio": 1.4988,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Gamja-tang 5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AGamja-tang%205.jpg",
+        "author": "travel oriented",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "kimchi-jjigae": {
+      "id": "hero-stew",
+      "kind": "atmosphere",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/hero-stew-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/hero-stew-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/hero-stew-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/hero-stew-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/hero-stew-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/hero-stew-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAgCdASoQAAwAA4BaJaACdAEPAveOlDjglAD+6ViOVRQzbczz7S+N7mP6BaGWsI+n4dDiuq28WKYAAAA=",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Kimchi jjigae - Kogi, Brighton 2023-11-15.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKimchi%20jjigae%20-%20Kogi%2C%20Brighton%202023-11-15.jpg",
+        "author": "Andy Li",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "duplicateOf": "hero-stew"
+    },
+    "budae-jjigae": {
+      "id": "budae-jjigae",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/budae-jjigae-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/budae-jjigae-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/budae-jjigae-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/budae-jjigae-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/budae-jjigae-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/budae-jjigae-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwBACdASoQABwAPu1iqU2ppaOiMAgBMB2JbACdMoACPeTV8Ro2DSu3DgAA2/EXb0sEekAmx7JEo9nVYPY5HAqgsPLFiYNcDp/A6fHqAyP+A0hWA8tGB4rYd1n+8etw81NAAA==",
+      "aspectRatio": 0.5626,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Budae jjigae indonesia.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3ABudae%20jjigae%20indonesia.jpg",
+        "author": "Agus Damanik",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    "kimchi-jeyuk": {
+      "id": "kimchi-jeyuk",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/kimchi-jeyuk-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/kimchi-jeyuk-480.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoQAAsAA4BaJbACdADDsbDUHSAA/tDEsDyjLvntkwvIim2tkPdawBKqFC7/nDxYgznCirdneZwEMT7wAAA=",
+      "aspectRatio": 1.5024,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Jeyuk-bokkeum 4.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AJeyuk-bokkeum%204.jpg",
+        "author": "대경라이프",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    "maeun-deungppyeo": {
+      "id": "gamjatang",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/gamjatang-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/gamjatang-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/gamjatang-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/gamjatang-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/gamjatang-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/gamjatang-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAsAA4BaJQBOgA+ZTWK6AP6sQMk03psW+0A4uRQg5JkxonctZDVFDhv4a7cUFKiRCnMAAAA=",
+      "aspectRatio": 1.4988,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Gamja-tang 5.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AGamja-tang%205.jpg",
+        "author": "travel oriented",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "duplicateOf": "gamjatang"
+    },
+    "gul-bossam": {
+      "id": "gul-bossam",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/gul-bossam-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/gul-bossam-480.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoQAAwAA4BaJYgCdAB6+vzmNAAA/bSctLWTfwR/P4bn3ehHaocUCIPNsX9HsYUjxZVE6F3DYaAAAA==",
+      "aspectRatio": 1.3324,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean cuisine-Bossam-04.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean%20cuisine-Bossam-04.jpg",
+        "author": "Timber Tank",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "daepae-samgyeop": {
+      "id": "daepae-samgyeop",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/daepae-samgyeop-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/daepae-samgyeop-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/daepae-samgyeop-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/daepae-samgyeop-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/daepae-samgyeop-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/daepae-samgyeop-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoQAAwAA4BaJYwCdADs4ZIkzEAA/u+MdqPrk8s28KhK3+RgOPhRZadWsa7ITHCAAAA=",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean.cuisine-Samgyeopsal-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean.cuisine-Samgyeopsal-01.jpg",
+        "author": "by hellochris",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    "jjusam-bulgogi": {
+      "id": "jjusam-bulgogi",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/jjusam-bulgogi-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/jjusam-bulgogi-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/jjusam-bulgogi-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/jjusam-bulgogi-960.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAQCdASoQAA0AA4BaJZACdADv1r04APxx6fqfn1bTfPEqIxDZRB8DLE1k4hviMQtpynoON3IAAA==",
+      "aspectRatio": 1.218,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Nakji-bokkeum, Stir-Fried Octopus.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3ANakji-bokkeum%2C%20Stir-Fried%20Octopus.jpg",
+        "author": "Korea.net / Korean Culture and Information Service",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "dakbal": {
+      "id": "dakbal",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/dakbal-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/dakbal-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/dakbal-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/dakbal-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/dakbal-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/dakbal-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQAAwAA4BaJagCdADZhCDOAAD+cPykdveaEXz1oOyjSc4sfRejFAdpmB9GKwpnw7XAAA==",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Chicken feet.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AChicken%20feet.jpg",
+        "author": "User:Anna Frodesiak",
+        "license": "Public domain",
+        "licenseUrl": ""
+      }
+    },
+    "gul-jeon": {
+      "id": "gul-jeon",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/gul-jeon-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/gul-jeon-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/gul-jeon-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/gul-jeon-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/gul-jeon-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/gul-jeon-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAwAA4BaJbACdADO2kKqwAD+ePMojyPTaL0LvJfW+CY+AKZdfUVewzf6+8oa9a3WvP2HgAAAAA==",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Jeon, Korean Food.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AJeon%2C%20Korean%20Food.jpg",
+        "author": "Jo Hanshin",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "jeongol": {
+      "id": "jeongol",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/jeongol-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/jeongol-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/jeongol-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/jeongol-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/jeongol-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/jeongol-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoQAAsAA4BaJYgCdADxMyS3eRQgAP7ta+0iLvrJDfUeZxGYFr6uIEf+hRLS8QXSFGxAAA==",
+      "aspectRatio": 1.519,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Jeongol 2.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AJeongol%202.jpg",
+        "author": "wizdata",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "makchang": {
+      "id": "makchang",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/makchang-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/makchang-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/makchang-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/makchang-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/makchang-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/makchang-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoQAAsAA4BaJZQCdIIjF1girxgAAPYemCM5YeKfPWyW8J+P8kManpJee4FZQ8E4AAA=",
+      "aspectRatio": 1.5,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Makchang.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AMakchang.jpg",
+        "author": "채지형",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "mugeunji-jeongol": {
+      "id": "mugeunji-jeongol",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/mugeunji-jeongol-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/mugeunji-jeongol-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/mugeunji-jeongol-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/mugeunji-jeongol-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/mugeunji-jeongol-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/mugeunji-jeongol-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAgAA4BaJbACdAEKpQKPycwA/s3QItbbhA7DZjpPClLkR6lDr9haRh5rk7sJw1zelAwaAAA=",
+      "aspectRatio": 1.9394,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Naju City 44 (17097269978).jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3ANaju%20City%2044%20(17097269978).jpg",
+        "author": "Republic of  Korea from Seoul, Republic of Korea",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    "kalguksu": {
+      "id": "kalguksu",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/kalguksu-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/kalguksu-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/kalguksu-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/kalguksu-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/kalguksu-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/kalguksu-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoQAAsAA4BaJaACdAEPdKZ3qXegAP633zW0IZl5Pqa2BkEyjGoX8MnkcCy6fK+gXwbR0LBVBrgAAA==",
+      "aspectRatio": 1.4942,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean.noodle-Kalguksu-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean.noodle-Kalguksu-01.jpg",
+        "author": "by jslander",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    "sujebi": {
+      "id": "sujebi",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/sujebi-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/sujebi-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/sujebi-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/sujebi-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/sujebi-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/sujebi-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAgCdASoQAAwAA4BaJQBOj+AChYyPXltrgAD+SNr3mR1fT7SV3Gu5+beSCRHDN+iUfggA",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Korean.cuisine-Sujebi-01.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKorean.cuisine-Sujebi-01.jpg",
+        "author": "Steve Longus",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    "jjolmyeon": {
+      "id": "jjolmyeon",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/jjolmyeon-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/jjolmyeon-480.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQAAwAA4BaJYgCdABwZLsagAD2DmxSii7Y9X0saSR6nj0K32kjw2YFWAAAAA==",
+      "aspectRatio": 1.3062,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Boiled jjolmyeon.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3ABoiled%20jjolmyeon.jpg",
+        "author": "딸기맘양갱이",
+        "license": "CC BY 2.0 kr",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/kr/deed.en"
+      }
+    },
+    "gyeran-mari": {
+      "id": "gyeran-mari",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/gyeran-mari-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/gyeran-mari-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/gyeran-mari-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/gyeran-mari-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/gyeran-mari-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/gyeran-mari-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAQAgCdASoQAAsAA4BaJYgCdAEPDwnqtgngAP703AGIG/2SQhPJ0hnekIe3MAAA",
+      "aspectRatio": 1.5,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Gyeran-mari.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AGyeran-mari.jpg",
+        "author": "Hyeon-Jeong Suk",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    "haemul-pajeon": {
+      "id": "haemul-pajeon",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/haemul-pajeon-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/haemul-pajeon-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/haemul-pajeon-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/haemul-pajeon-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/haemul-pajeon-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/haemul-pajeon-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACQAQCdASoQAAsAA4BaJQBOgBov6hgA/uXuUlKYqtP9luGVnDI3Kj8pfBuals78gAA=",
+      "aspectRatio": 1.5059,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Haemul-pajeon making.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AHaemul-pajeon%20making.jpg",
+        "author": "USAG- Humphreys",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    "kimchi-jeon": {
+      "id": "kimchi-jeon",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/kimchi-jeon-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/kimchi-jeon-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/kimchi-jeon-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/kimchi-jeon-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/kimchi-jeon-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/kimchi-jeon-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoQABUAPu1kqk4ppaQiMAgBMB2JbACdMoR3ACWi138++Q2lYVycAP7w362jaxXzkN9eLRLibkzUgaHwiSrC6u8HMU2JFMFf+4+nNoAZauH64ZESAswAAA==",
+      "aspectRatio": 0.75,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Kimchi-jeon - Kimchi pancake - Kogi Korean cuisine 2024-09-03.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AKimchi-jeon%20-%20Kimchi%20pancake%20-%20Kogi%20Korean%20cuisine%202024-09-03.jpg",
+        "author": "Andy Li",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    "gun-mandu": {
+      "id": "gun-mandu",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/gun-mandu-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/gun-mandu-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/gun-mandu-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/gun-mandu-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/gun-mandu-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/gun-mandu-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoQAAsAA4BaJbACdAEQyo6wKpbAAPi7khecvuFtAB3O8bKsbf0wPpu21juDmygTzQAAAA==",
+      "aspectRatio": 1.4469,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Mandu Philippines1.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AMandu%20Philippines1.jpg",
+        "author": "Unknown",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    "jjin-mandu": {
+      "id": "jjin-mandu",
+      "kind": "dish",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/jjin-mandu-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/jjin-mandu-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/jjin-mandu-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/jjin-mandu-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/jjin-mandu-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/jjin-mandu-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQAAwAA4BaJZQBTAA11E9MOzwA/gksNqLLfCbZjoxQ6c6CwvNyKNboNTnn/AAA",
+      "aspectRatio": 1.3333,
+      "credit": {
+        "source": "Wikimedia Commons",
+        "file": "File:Jjin-mandu 7.jpg",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File%3AJjin-mandu%207.jpg",
+        "author": "lazy fri13th",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    }
+  }
+}

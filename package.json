@@ -1,12 +1,15 @@
 {
-  "name": "volta-base-template",
+  "name": "jeunju-restaurant",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "media": "node scripts/harvest-media.mjs",
+    "photo-needs": "node scripts/photo-needs.mjs",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "latest",
@@ -14,9 +17,11 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/node": "26.2.0",
     "@types/react": "^19.2.14",
     "autoprefixer": "^10.0.0",
     "postcss": "^8.0.0",
+    "sharp": "^0.35.3",
     "tailwindcss": "^3.0.0",
     "typescript": "^5.0.0"
   }

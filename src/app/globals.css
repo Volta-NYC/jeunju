@@ -2,11 +2,204 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  padding: 0;
-  margin: 0;
+/*
+ * JeunJu design tokens.
+ *
+ * The palette still derives from 오방색 (obangsaek), the five Korean cardinal colours,
+ * but disciplined down to two that carry the whole site: 흑 as true obsidian — the black
+ * of 먹 ink and 흑칠 black lacquerware — and 황 as champagne gold. 백 is the ivory the
+ * type is set in. 청 celadon and 적 jujube survive only in the footer seal.
+ *
+ * One accent, one ground. Everything else is a tier of black. Restraint is the premium
+ * signal; a second competing accent is what makes a page look cheap.
+ *
+ * Grounds run in four tiers rather than two opposing surfaces. `.on-raised` lifts a
+ * section one tier without inverting anything, so the eye reads depth instead of
+ * alternating pages.
+ */
+
+@layer base {
+  :root {
+    /* ---- 흑 obsidian, four tiers of depth ---- */
+    --obsidian-deep: 4 4 5; /* #040405 — beneath everything */
+    --obsidian: 8 8 10; /* #08080A — the page ground */
+    --obsidian-raised: 15 15 18; /* #0F0F12 — lifted sections */
+    --obsidian-elevated: 23 23 27; /* #17171B — cards, insets */
+    --obsidian-edge: 38 38 44;
+
+    /* ---- 백 ivory ---- */
+    --ivory: 240 237 231; /* #F0EDE7 */
+
+    /* ---- 황 champagne gold — the only accent ---- */
+    --gold: 201 169 110; /* #C9A96E */
+    --gold-bright: 226 200 152;
+    --gold-deep: 138 112 66;
+
+    /* ---- held in reserve, footer seal only ---- */
+    --celadon: 122 178 156;
+    --jujube: 158 48 40;
+
+    /* ---- semantic ---- */
+    --bg: var(--obsidian);
+    --bg-raised: var(--obsidian-raised);
+    --bg-elevated: var(--obsidian-elevated);
+    --edge: var(--obsidian-edge);
+    --fg: var(--ivory);
+    --fg-muted: 150 145 138;
+    --fg-faint: 104 100 95;
+    --accent: var(--gold);
+
+    /* ---- rhythm — more air than before; space is what reads as expensive ---- */
+    --measure: 66ch;
+    --gutter: clamp(1.5rem, 5vw, 5rem);
+    --section-y: clamp(6rem, 14vw, 13rem);
+
+    /* ---- motion — slower and heavier; nothing premium moves quickly ---- */
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+    --dur: 1100ms;
+  }
+
+  /* Lifts a section one tier. No inversion — the whole site is one dark room. */
+  .on-raised {
+    --bg: var(--obsidian-raised);
+    --bg-elevated: 28 28 33;
+    --edge: 46 46 53;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    background-color: rgb(var(--obsidian));
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: rgb(var(--obsidian));
+    color: rgb(var(--fg));
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: 'kern', 'liga';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Hangul sits on a larger optical body than Latin at the same point size; nudge it
+     back so bilingual pairs sit level. */
+  :lang(ko),
+  .ko {
+    font-size: 0.94em;
+    letter-spacing: -0.01em;
+    word-break: keep-all;
+  }
+
+  ::selection {
+    background: rgb(var(--gold));
+    color: rgb(var(--obsidian));
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--gold));
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
 }
 
-* {
-  box-sizing: border-box;
+@layer components {
+  /* Film grain. On a ground this dark, an untextured fill reads as dead pixels rather
+     than as a surface — the grain is what gives the black a material. */
+  .grain::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.055;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* Seals the bottom of a section into the next one, so tiers meet in shadow rather
+     than at a visible seam. */
+  .vignette::after {
+    content: '';
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0;
+    height: 14rem;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, rgb(var(--obsidian-deep) / 0.55));
+  }
+
+  /* Hairline that fades at both ends, so section rules never look like table borders. */
+  .rule {
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgb(var(--edge)) 12%,
+      rgb(var(--edge)) 88%,
+      transparent
+    );
+  }
+
+  /*
+   * Card surface. A near-invisible top-lit gradient plus a hairline that is brighter at
+   * the top edge — the way a real object catches light from above. Flat panels on black
+   * look like holes; these look like objects.
+   */
+  .surface {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(255 255 255 / 0.045),
+      rgb(255 255 255 / 0.012) 40%,
+      transparent
+    );
+    border: 1px solid rgb(255 255 255 / 0.07);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.05),
+      0 24px 48px -24px rgb(0 0 0 / 0.9);
+  }
+
+  /*
+   * The signature form. Small dishes on a Korean table are round; mains are not. Every
+   * banchan-scale image is masked to a circle, very slightly irregular because handmade
+   * ceramics are, and rimmed the way glazed ceramic catches light.
+   */
+  .dish {
+    border-radius: 49% 51% 52% 48% / 51% 49% 51% 49%;
+    overflow: hidden;
+    box-shadow:
+      inset 0 0 0 1px rgb(255 255 255 / 0.09),
+      0 30px 60px -28px rgb(0 0 0 / 0.95);
+  }
+
+  /* Gold hairline under a heading. Used once per page at most. */
+  .gold-rule {
+    height: 1px;
+    background: linear-gradient(90deg, rgb(var(--gold) / 0.7), rgb(var(--gold) / 0));
+  }
+}
+
+@layer utilities {
+  .measure {
+    max-width: var(--measure);
+  }
+
+  .gutter {
+    padding-inline: var(--gutter);
+  }
+
+  /* Lifts large display type off a black ground — a faint bloom, not a drop shadow. */
+  .lit {
+    text-shadow: 0 0 60px rgb(var(--ivory) / 0.16);
+  }
+
+  /* Vertical Hangul, used once — for the seal in the footer. */
+  .vertical-ko {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
 }
