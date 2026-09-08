@@ -60,17 +60,39 @@ export function DishTags({ tags }: { tags: MenuItem['tags'] }) {
  * Full height plus `mt-auto` on the price keeps prices on one baseline across a row,
  * even where a dish name wraps to two lines.
  */
-export function DishCard({ item, index = 0 }: { item: MenuItem; index?: number }) {
+export function DishCard({
+  item,
+  index = 0,
+  imageSrc,
+  showPrice = true,
+}: {
+  item: MenuItem;
+  index?: number;
+  /** Optional local photograph for a featured placement. */
+  imageSrc?: string;
+  /** Feature rows can omit prices while the full menu retains them. */
+  showPrice?: boolean;
+}) {
   return (
     <article className="group flex h-full flex-col text-center">
       <div className="dish relative mx-auto aspect-square w-full transition-transform duration-1000 ease-out group-hover:scale-[1.04] motion-reduce:transition-none motion-reduce:group-hover:scale-100">
-        <Photo
-          id={item.image}
-          alt={item.name}
-          className="h-full w-full"
-          sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 22vw"
-          fallbackLabel={item.nameKo ?? item.name}
-        />
+        {imageSrc ? (
+          <img
+            src={imageSrc}
+            alt={item.name}
+            loading="eager"
+            decoding="async"
+            className="h-full w-full object-cover"
+          />
+        ) : (
+          <Photo
+            id={item.image}
+            alt={item.name}
+            className="h-full w-full"
+            sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 22vw"
+            fallbackLabel={item.nameKo ?? item.name}
+          />
+        )}
       </div>
 
       <h3 className="mt-6 font-display text-xl leading-snug text-fg">{item.name}</h3>
@@ -79,9 +101,11 @@ export function DishCard({ item, index = 0 }: { item: MenuItem; index?: number }
           {item.nameKo}
         </p>
       )}
-      <p className="mt-auto pt-3">
-        <Price value={item.price} />
-      </p>
+      {showPrice && (
+        <p className="mt-auto pt-3">
+          <Price value={item.price} />
+        </p>
+      )}
       <span className="sr-only">{index}</span>
     </article>
   );

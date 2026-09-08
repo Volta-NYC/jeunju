@@ -5,7 +5,7 @@ import { Reveal } from '@/components/ui/Reveal';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { DishCard } from '@/components/menu/DishCard';
 import { business } from '@/content/business';
-import { findItem, priceFloor } from '@/content/menu';
+import { findItem } from '@/content/menu';
 import { banchanFact, press, testimonials } from '@/content/story';
 
 /**
@@ -44,7 +44,7 @@ export default function HomePage() {
                 href="/menu"
                 className="rounded-full border border-white/15 px-7 py-3.5 font-mono text-label uppercase text-fg transition-colors duration-500 hover:border-accent hover:text-accent"
               >
-                Full menu · from ${priceFloor.toFixed(2)}
+                Full menu
               </Link>
             </Reveal>
           </div>
@@ -52,7 +52,16 @@ export default function HomePage() {
           <ul className="mt-20 grid grid-cols-2 gap-x-8 gap-y-16 sm:grid-cols-3 lg:grid-cols-6">
             {KNOWN_FOR.map((item, i) => (
               <Reveal as="li" key={item.slug} index={i}>
-                <DishCard item={item} index={i} />
+                <DishCard
+                  item={item}
+                  index={i}
+                  imageSrc={
+                    item.slug === 'bibimbap'
+                      ? '/restaurant-photos/JeunJu_Bibimbap_400x533.jpg'
+                      : undefined
+                  }
+                  showPrice={false}
+                />
               </Reveal>
             ))}
           </ul>
