@@ -167,9 +167,8 @@ export const press: PressMention[] = [
   },
 ];
 
-/** The one thing every review source agrees on. Used as the site's recurring motif. */
+/** A recurring detail of the Jeollado-style table. */
 export const banchanFact = {
-  headline: 'Refills are free.',
-  body:
-    'Across Yelp, Google, DoorDash and the press, the single most repeated thing anyone says about this restaurant is that the banchan keeps coming and nobody charges for it. Most mains arrive with four or more.',
+  headline: 'A generous table.',
+  body: 'Most mains arrive with four or more banchan, bringing a full Jeollado-style table to every meal.',
 };

@@ -497,7 +497,7 @@ export const menu: MenuCategory[] = [
     slug: 'extras',
     name: 'Extras',
     nameKo: '추가메뉴',
-    blurb: 'Banchan refills are complimentary — just ask.',
+    blurb: 'Ask about available banchan.',
     items: [
       {
         slug: 'white-rice',

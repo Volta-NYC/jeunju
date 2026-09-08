@@ -109,8 +109,11 @@ export const business = {
 
   delivery: {
     doordash: { name: 'DoorDash', note: 'DashPass eligible', url: null },
-    /** §0 — presence confirmed via an aggregator, but no direct store page was retrieved. */
-    ubereats: { name: 'Uber Eats', note: 'Presence indicated; link unconfirmed', url: null },
+    ubereats: {
+      name: 'Uber Eats',
+      note: 'Order online',
+      url: 'https://www.ubereats.com/store/jeunju-%EC%A0%84%EC%A3%BC%ED%95%A0%EB%A7%A4%EC%B9%BC%EA%B5%AD%EC%88%98/m662Y98rTVa05W-CfWpdlg',
+    },
   },
 
   ratings: [

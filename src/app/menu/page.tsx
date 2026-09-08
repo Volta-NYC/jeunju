@@ -28,8 +28,7 @@ export default function MenuPage() {
           <div className="gold-rule mt-8 w-40" />
           <p className="mt-8 text-lg leading-relaxed text-fg-muted">
             Jeollado home cooking: soups simmered long, noodles made by hand, and plates built to
-            put in the middle of the table. Most mains arrive with four or more banchan, and refills
-            are free.
+            put in the middle of the table. Most mains arrive with four or more banchan.
           </p>
         </header>
       </div>
