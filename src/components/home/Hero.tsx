@@ -1,4 +1,5 @@
 import { business } from '@/content/business';
+import { Photo } from '@/components/media/Photo';
 
 /**
  * The 한상 (hansang) hero — a Korean set table.
@@ -16,31 +17,28 @@ import { business } from '@/content/business';
  * The small dishes, in the order they settle onto the table.
  * `area` is the CSS grid placement inside the 3x3 mosaic.
  */
-const HERO_PHOTOS = [
+const ORIGINAL_PHOTOS = [
   {
-    src: '/restaurant-photos/JeunJu_KoreanFoodSpread_2880x2304.jpg',
-    alt: 'A spread of JeunJu Korean dishes',
-    area: '1 / 1 / 3 / 3',
-    delay: 420,
-  },
-  {
-    src: '/restaurant-photos/JeunJu_SpicyOctopusStirFry_400x300.jpg',
-    alt: 'Spicy stir-fried octopus',
+    id: 'atmos-banchan',
+    alt: 'A spread of Korean side dishes',
     area: '1 / 3 / 2 / 4',
     delay: 900,
   },
   {
-    src: '/restaurant-photos/JeunJu_SeafoodPancake_400x400.jpg',
-    alt: 'Korean seafood pancake',
+    id: 'kimchi-jeon',
+    alt: 'Kimchi pancake',
     area: '2 / 3 / 3 / 4',
     delay: 1040,
   },
   {
-    src: '/restaurant-photos/JeunJu_SteamedDumplings_2880x2304.jpg',
+    id: 'jjin-mandu',
     alt: 'Steamed dumplings',
     area: '3 / 1 / 4 / 2',
     delay: 1180,
   },
+];
+
+const REPLACEMENT_PHOTOS = [
   {
     src: '/restaurant-photos/JeunJu_Bibimbap_400x533.jpg',
     alt: 'Bibimbap',
@@ -144,10 +142,34 @@ export function Hero() {
           than as an orbit.
         */}
         <div className="relative mx-auto grid w-full max-w-[30rem] grid-cols-3 grid-rows-3 gap-2.5 sm:max-w-[34rem] sm:gap-3">
-          {HERO_PHOTOS.map((photo) => (
+          <div
+            className="animate-settle overflow-hidden rounded-sm ring-1 ring-white/10"
+            style={{ gridArea: '1 / 1 / 3 / 3', animationDelay: '420ms' }}
+          >
+            <img
+              src="/restaurant-photos/JeunJu_KoreanFoodSpread_2880x2304.jpg"
+              alt="A spread of JeunJu Korean dishes"
+              loading="eager"
+              decoding="sync"
+              fetchPriority="high"
+              className="h-full w-full object-cover"
+            />
+          </div>
+
+          {ORIGINAL_PHOTOS.map((photo) => (
+            <div
+              key={photo.id}
+              className="animate-settle aspect-square overflow-hidden rounded-sm ring-1 ring-white/10"
+              style={{ gridArea: photo.area, animationDelay: `${photo.delay}ms` }}
+            >
+              <Photo id={photo.id} alt={photo.alt} priority className="h-full w-full" sizes="18vw" />
+            </div>
+          ))}
+
+          {REPLACEMENT_PHOTOS.map((photo) => (
             <div
               key={photo.src}
-              className="animate-settle aspect-square overflow-hidden rounded-sm ring-1 ring-white/10 first:aspect-auto"
+              className="animate-settle aspect-square overflow-hidden rounded-sm ring-1 ring-white/10"
               style={{ gridArea: photo.area, animationDelay: `${photo.delay}ms` }}
             >
               <img
