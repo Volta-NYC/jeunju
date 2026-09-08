@@ -112,37 +112,31 @@ export function DishCard({
 }
 
 /**
- * A dish as a menu line — the reading format. Name, Korean name, description and price
- * on one row with a leader rule, the way a printed menu sets it.
+ * A dish as a menu line — the reading format. Name, Korean name and description are
+ * shown without prices.
  */
 export function DishRow({ item }: { item: MenuItem }) {
   return (
-    <article className="grid grid-cols-[auto_1fr_auto] items-baseline gap-x-4 py-6">
-      <div className="col-span-3 sm:col-span-1 sm:col-start-1">
-        <h3 className="font-display text-xl leading-snug text-fg">{item.name}</h3>
-        {item.nameKo && (
-          <p lang="ko" className="mt-1 font-display text-sm text-fg-faint">
-            {item.nameKo}
-            {item.romanized && <span className="ml-2 font-body not-italic">{item.romanized}</span>}
-          </p>
-        )}
-      </div>
-
-      {/* leader rule — hidden on mobile where it would fight the wrapped text */}
-      <div
-        aria-hidden
-        className="col-start-2 hidden h-px translate-y-[-0.35em] bg-white/[0.09] sm:block"
-      />
-
-      <div className="col-span-3 mt-1 sm:col-span-1 sm:col-start-3 sm:mt-0 sm:text-right">
-        <Price value={item.price} />
+    <article className="py-6">
+      <div className="flex flex-wrap items-start justify-between gap-x-6 gap-y-2">
+        <div>
+          <h3 className="font-display text-xl leading-snug text-fg">{item.name}</h3>
+          {item.nameKo && (
+            <p lang="ko" className="mt-1 font-display text-sm text-fg-faint">
+              {item.nameKo}
+              {item.romanized && (
+                <span className="ml-2 font-body not-italic">{item.romanized}</span>
+              )}
+            </p>
+          )}
+        </div>
         {item.serves && (
-          <p className="font-mono text-micro uppercase text-fg-faint sm:mt-1">{item.serves}</p>
+          <p className="font-mono text-micro uppercase text-fg-faint">{item.serves}</p>
         )}
       </div>
 
       {(item.description || item.tags.length > 0) && (
-        <div className="col-span-3 mt-2 max-w-prose">
+        <div className="mt-2 max-w-prose">
           {item.description && (
             <p className="text-sm leading-relaxed text-fg-muted">{item.description}</p>
           )}

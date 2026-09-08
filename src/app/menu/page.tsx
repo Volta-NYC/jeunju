@@ -6,12 +6,10 @@ import { business } from '@/content/business';
 export const metadata: Metadata = {
   title: 'Menu',
   description:
-    'The full JeunJu menu — Jeonju-style soups, stews, hand-cut noodles and shared plates, with Korean names and prices.',
+    'The full JeunJu menu — Jeonju-style soups, stews, hand-cut noodles and shared plates, with Korean names.',
 };
 
 export default function MenuPage() {
-  const priced = allItems.filter((i) => i.price !== null).length;
-
   return (
     <div className="grain relative min-h-screen bg-obsidian pb-section pt-36">
       <div className="relative mx-auto max-w-shell gutter">
@@ -19,12 +17,22 @@ export default function MenuPage() {
           <p className="font-mono text-micro uppercase text-accent">
             {allItems.length} dishes · {menu.length} sections
           </p>
-          <h1 className="lit mt-5 font-display text-display-lg text-fg">
-            The menu
-            <span lang="ko" className="ml-5 align-middle font-display text-[0.34em] text-fg/25">
-              메뉴
-            </span>
-          </h1>
+          <div className="mt-5 flex flex-wrap items-center gap-5">
+            <h1 className="lit font-display text-display-lg text-fg">
+              The menu
+              <span lang="ko" className="ml-5 align-middle font-display text-[0.34em] text-fg/25">
+                메뉴
+              </span>
+            </h1>
+            <a
+              href={business.delivery.ubereats.url}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="rounded-full bg-accent px-6 py-3 font-mono text-label uppercase text-obsidian transition-colors duration-500 hover:bg-gold-bright"
+            >
+              Online order
+            </a>
+          </div>
           <div className="gold-rule mt-8 w-40" />
           <p className="mt-8 text-lg leading-relaxed text-fg-muted">
             Jeollado home cooking: soups simmered long, noodles made by hand, and plates built to
@@ -62,13 +70,6 @@ export default function MenuPage() {
           <section>
             <h2 className="font-mono text-micro uppercase text-accent">Good to know</h2>
             <dl className="mt-5 space-y-3.5 text-sm leading-relaxed text-fg-muted">
-              <div>
-                <dt className="inline font-medium text-fg">Prices · </dt>
-                <dd className="inline">
-                  {priced} of {allItems.length} dishes have a listed price. Where we show “Ask us”,
-                  the price varies or was not published — call and we will tell you.
-                </dd>
-              </div>
               <div>
                 <dt className="inline font-medium text-fg">Spice and substitutions · </dt>
                 <dd className="inline">Ask your server. Most dishes can be adjusted.</dd>

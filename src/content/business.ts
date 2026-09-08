@@ -118,7 +118,7 @@ export const business = {
 
   ratings: [
     { platform: 'Google', score: 4.7, count: '1,200+' },
-    { platform: 'Yelp', score: 4.3, count: '58–83' },
+    { platform: 'Uber Eats', score: 4.7, count: '2,000+' },
     { platform: 'DoorDash', score: 4.5, count: '10+' },
   ],
 
