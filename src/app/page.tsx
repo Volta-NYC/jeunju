@@ -98,7 +98,17 @@ export default function HomePage() {
                     className="dish aspect-square"
                     style={{ transform: i % 2 ? 'translateY(1.5rem)' : undefined }}
                   >
-                    <Photo id={id} alt="" className="h-full w-full" sizes="25vw" />
+                    {id === 'atmos-table' ? (
+                      <img
+                        src="/restaurant-photos/JeunJu_BossamPorkPlatterTable_400x300.jpg"
+                        alt="Bossam pork platter with Korean side dishes"
+                        loading="lazy"
+                        decoding="async"
+                        className="h-full w-full object-cover"
+                      />
+                    ) : (
+                      <Photo id={id} alt="" className="h-full w-full" sizes="25vw" />
+                    )}
                   </div>
                 ),
               )}

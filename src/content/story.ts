@@ -169,6 +169,6 @@ export const press: PressMention[] = [
 
 /** A recurring detail of the Jeollado-style table. */
 export const banchanFact = {
-  headline: 'A generous table.',
+  headline: 'Complementary Banchan, Korean side dishes',
   body: 'Most mains arrive with four or more banchan, bringing a full Jeollado-style table to every meal.',
 };
