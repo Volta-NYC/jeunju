@@ -90,12 +90,22 @@ export function Nav() {
               </Link>
             );
           })}
-          <a
-            href={business.phone.href}
-            className="rounded-full border border-white/15 px-6 py-2.5 font-mono text-label uppercase text-fg transition-colors duration-500 hover:border-accent hover:text-accent"
-          >
-            Call
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              href={business.phone.href}
+              className="rounded-full border border-white/15 px-6 py-2.5 font-mono text-label uppercase text-fg transition-colors duration-500 hover:border-accent hover:text-accent"
+            >
+              Call
+            </a>
+            <a
+              href={business.delivery.ubereats.url}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="rounded-full bg-accent px-6 py-2.5 font-mono text-label uppercase text-obsidian transition-colors duration-500 hover:bg-gold-bright"
+            >
+              Online order
+            </a>
+          </div>
         </nav>
 
         <button
@@ -152,6 +162,16 @@ export function Nav() {
                 className="block rounded-full bg-accent py-4 text-center font-mono text-label uppercase text-obsidian"
               >
                 Call {business.phone.display}
+              </a>
+            </li>
+            <li className="pt-3">
+              <a
+                href={business.delivery.ubereats.url}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="block rounded-full bg-accent py-4 text-center font-mono text-label uppercase text-obsidian transition-colors duration-500 hover:bg-gold-bright"
+              >
+                Online order
               </a>
             </li>
           </ul>
