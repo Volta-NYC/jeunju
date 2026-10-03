@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-15T03:54:46.959Z",
-  "note": "Placeholder reference photography from Wikimedia Commons. These are NOT photos of JeunJu's own food. Replace with the client's photography per PHOTO-NEEDS.txt.",
+  "generatedAt": "2026-10-03T19:06:52.424Z",
+  "note": "The owner portrait was provided by the restaurant. The Wikimedia Commons photographs credited below are reference images, not photographs of JeunJu’s own food.",
   "missing": [],
   "assets": {
     "hero-stew": {
@@ -1790,6 +1790,46 @@
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
+    },
+    "sopia-jung": {
+      "id": "sopia-jung",
+      "kind": "portrait",
+      "variants": [
+        {
+          "width": 480,
+          "format": "avif",
+          "src": "/media/sopia-jung-480.avif"
+        },
+        {
+          "width": 480,
+          "format": "webp",
+          "src": "/media/sopia-jung-480.webp"
+        },
+        {
+          "width": 960,
+          "format": "avif",
+          "src": "/media/sopia-jung-960.avif"
+        },
+        {
+          "width": 960,
+          "format": "webp",
+          "src": "/media/sopia-jung-960.webp"
+        },
+        {
+          "width": 1600,
+          "format": "avif",
+          "src": "/media/sopia-jung-1600.avif"
+        },
+        {
+          "width": 1600,
+          "format": "webp",
+          "src": "/media/sopia-jung-1600.webp"
+        }
+      ],
+      "blurDataURL": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAQCdASoQAAsAA4BaJQBOgB6M1KPYWEAA/f42e79bXGyWQe7+SamN6AcnLvlUAAA=",
+      "aspectRatio": 1.4001,
+      "credit": null,
+      "ownPhotography": true
     }
   }
 }

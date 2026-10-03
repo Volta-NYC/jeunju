@@ -4,10 +4,9 @@ Generated 2026-08-15 by scripts/photo-needs.mjs
 
 WHY THIS FILE EXISTS
 
-The research material this site was built from contained no photography at all —
-no logo, no food photos, no interior shots. Every photograph currently on the
-site is an openly-licensed stand-in from Wikimedia Commons showing the *type* of
-dish, not JeunJu's own food. They are credited at /credits.
+The original research contained no photography. The owner portrait is now
+installed. The Wikimedia Commons photographs that remain show reference dishes,
+not JeunJu's own food, and are credited at /credits.
 
 They are good enough to launch behind, and wrong to keep. Replace them with the
 shots below and the site becomes genuinely the restaurant's own.
@@ -38,8 +37,8 @@ SHOOTING NOTES
 
 PRIORITY 1 — ATMOSPHERE AND PEOPLE
 ------------------------------------------------------------------------------
-None of these exist in any form. They matter more than the dish photos, because
-a stand-in dish photo is merely generic — a missing owner portrait is a hole.
+The owner portrait is installed. The remaining shots will show the restaurant's
+people and space, rather than generic reference images.
 
   [ ] The awning
         The exterior awning with the founder's photograph and the painted year.
@@ -47,10 +46,10 @@ a stand-in dish photo is merely generic — a missing owner portrait is a hole.
         currently no usable photograph of it. Shoot it straight-on in daylight
         and again at dusk with the sign lit.
 
-  [ ] Sophia Cho
-        A portrait of the owner, in the dining room or the kitchen. Natural
-        light, unposed. The story page is built around her and currently runs
-        without a photograph of her.
+  [x] Sopia Jung
+        Owner-provided portrait installed on the story page. Source:
+        media-sources/sopia-jung.jpg. Optimised versions use the sopia-jung
+        media id.
 
   [ ] Eunhae Bae
         Any archival photograph of the founder — a print of the awning photo, or
@@ -181,7 +180,7 @@ These render as a typographic card. A photo would be an upgrade, not a fix.
   [ ] White Rice  공기밥
 
 
-SEPARATELY — THINGS TO CONFIRM WITH SOPHIA CHO
+SEPARATELY — THINGS TO CONFIRM WITH SOPIA JUNG
 ------------------------------------------------------------------------------
 These are unresolved in the research and the site currently works around each
 one. Each is a one-question fix.

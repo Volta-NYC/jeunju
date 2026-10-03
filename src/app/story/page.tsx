@@ -8,7 +8,7 @@ import { story, foundingYearNote } from '@/content/story';
 export const metadata: Metadata = {
   title: 'Story',
   description:
-    'Eunhae Bae came from Jeonju and opened the kitchen. Her daughter Sophia Cho runs it now — same recipes, same staff.',
+    'Eunhae Bae came from Jeonju and opened the kitchen. Her daughter Sopia Jung runs it now — same recipes, same staff.',
 };
 
 export default function StoryPage() {

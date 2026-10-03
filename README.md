@@ -76,6 +76,14 @@ npm run media          # local files win over anything downloadable
 The manifest then marks that asset `ownPhotography: true`, drops its attribution, and
 `/credits` shrinks by one.
 
+Sopia Jung's owner-provided portrait is tracked in `media-sources/sopia-jung.jpg` and
+uses its own `sopia-jung` media id. Regenerate just that asset without re-harvesting
+the other photographs:
+
+```bash
+npm run media -- sopia-jung
+```
+
 ## Design system
 
 Tokens live in `src/app/globals.css` as RGB triplets, mapped to Tailwind in

@@ -30,14 +30,14 @@ export const story: StoryChapter[] = [
     image: 'atmos-onggi',
   },
   {
-    id: 'sophia',
+    id: 'sopia',
     eyebrow: 'The kitchen today',
-    heading: 'Sophia Cho',
+    heading: 'Sopia Jung',
     body: [
-      'Sophia Cho, Eunhae’s daughter, took the restaurant over from her mother and runs it now. She kept on the kitchen staff who had been there from the beginning, and has kept to her mother’s approach rather than modernising away from it.',
+      'Sopia Jung, Eunhae’s daughter, took the restaurant over from her mother and runs it now. She kept on the kitchen staff who had been there from the beginning, and has kept to her mother’s approach rather than modernising away from it.',
       'Homecoming NYC, which held a community Lunar New Year dinner here in 2025, described what she has built as a haven for people who love traditional Korean food in Queens.',
     ],
-    image: 'atmos-table',
+    image: 'sopia-jung',
   },
   {
     id: 'garden',
@@ -58,7 +58,7 @@ export const story: StoryChapter[] = [
 export const foundingYearNote = {
   heading: 'Since 1985. Or 1999.',
   body:
-    'The awning says 1985. Facebook, and most listings, say the restaurant has been at this address since 1999. Both have been true in print for years and we have not tried to resolve it here. If you ask Sophia in person, you will get the real answer — which is more than a website can offer.',
+    'The awning says 1985. Facebook, and most listings, say the restaurant has been at this address since 1999. Both have been true in print for years and we have not tried to resolve it here. If you ask Sopia in person, you will get the real answer — which is more than a website can offer.',
 };
 
 export const testimonials: Testimonial[] = [
@@ -133,7 +133,7 @@ export const press: PressMention[] = [
     outlet: 'Eater NY',
     title: '19 Standout Korean Restaurants in Murray Hill, Koreatown, Queens',
     date: 'October 2023',
-    note: 'Profiled Sophia Cho taking over the restaurant her mother started. Photography by Caroline Shin.',
+    note: 'Profiled Sopia Jung taking over the restaurant her mother started. Photography by Caroline Shin.',
   },
   {
     outlet: 'QNS.com',
@@ -145,7 +145,7 @@ export const press: PressMention[] = [
     outlet: 'Homecoming NYC',
     title: 'Lunar New Year with JeunJu',
     date: '2025',
-    note: 'Ran the dinner in partnership with the Asian American Federation, and published a profile of Sophia and the restaurant.',
+    note: 'Ran the dinner in partnership with the Asian American Federation, and published a profile of Sopia and the restaurant.',
   },
   {
     outlet: 'Eat the World NYC',

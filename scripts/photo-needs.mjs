@@ -35,7 +35,7 @@ async function readMenu() {
 
 const ATMOSPHERE = [
   ['The awning', 'The exterior awning with the founder\'s photograph and the painted year. This is the most distinctive branding the restaurant has and there is currently no usable photograph of it. Shoot it straight-on in daylight and again at dusk with the sign lit.'],
-  ['Sophia Cho', 'A portrait of the owner, in the dining room or the kitchen. Natural light, unposed. The story page is built around her and currently runs without a photograph of her.'],
+  ['Sopia Jung', 'Owner-provided portrait installed on the story page. Source: media-sources/sopia-jung.jpg. Optimised versions use the sopia-jung media id.'],
   ['Eunhae Bae', 'Any archival photograph of the founder — a print of the awning photo, or a family photo from the early years. A scan is fine.'],
   ['The dining room', 'Wide shot of the room with tables set. Shoot when it is full, or at least half-set, not empty.'],
   ['A full table', 'Overhead shot of one complete meal: a main, the rice, and every banchan that comes with it, on the real table. THIS IS THE MOST IMPORTANT SHOT — the whole homepage is built around the set table and the free-refill promise.'],
@@ -59,10 +59,9 @@ async function main() {
   out.push('');
   out.push('WHY THIS FILE EXISTS');
   out.push('');
-  out.push('The research material this site was built from contained no photography at all —');
-  out.push('no logo, no food photos, no interior shots. Every photograph currently on the');
-  out.push('site is an openly-licensed stand-in from Wikimedia Commons showing the *type* of');
-  out.push('dish, not JeunJu\'s own food. They are credited at /credits.');
+  out.push('The original research contained no photography. The owner portrait is now');
+  out.push('installed. The Wikimedia Commons photographs that remain show reference dishes,');
+  out.push('not JeunJu\'s own food, and are credited at /credits.');
   out.push('');
   out.push('They are good enough to launch behind, and wrong to keep. Replace them with the');
   out.push('shots below and the site becomes genuinely the restaurant\'s own.');
@@ -93,11 +92,11 @@ async function main() {
   out.push('');
   out.push('PRIORITY 1 — ATMOSPHERE AND PEOPLE');
   out.push(line());
-  out.push('None of these exist in any form. They matter more than the dish photos, because');
-  out.push('a stand-in dish photo is merely generic — a missing owner portrait is a hole.');
+  out.push('The owner portrait is installed. The remaining shots will show the restaurant\'s');
+  out.push('people and space, rather than generic reference images.');
   out.push('');
   for (const [name, note] of ATMOSPHERE) {
-    out.push(`  [ ] ${name}`);
+    out.push(`  [${name === 'Sopia Jung' ? 'x' : ' '}] ${name}`);
     for (const chunk of note.match(/.{1,72}(\s|$)/g) ?? []) out.push(`        ${chunk.trim()}`);
     out.push('');
   }
@@ -138,7 +137,7 @@ async function main() {
 
   out.push('');
   out.push('');
-  out.push('SEPARATELY — THINGS TO CONFIRM WITH SOPHIA CHO');
+  out.push('SEPARATELY — THINGS TO CONFIRM WITH SOPIA JUNG');
   out.push(line());
   out.push('These are unresolved in the research and the site currently works around each');
   out.push('one. Each is a one-question fix.');

@@ -58,7 +58,7 @@ export const business = {
     source: 'Google Business Profile and most current Yelp snapshots',
     note:
       'DoorDash lists 10:00 AM–9:40 PM and an older Yelp cache lists 10:00 AM–10:00 PM. ' +
-      'Confirm with Sophia Cho before removing the "call to confirm" affordance.',
+      'Confirm with Sopia Jung before removing the "call to confirm" affordance.',
   } satisfies Fact<{ open: string; close: string; days: string }>,
 
   /**
@@ -76,7 +76,7 @@ export const business = {
   } satisfies Fact<number | null>,
 
   people: {
-    owner: { name: 'Sophia Cho', role: 'Owner' },
+    owner: { name: 'Sopia Jung', role: 'Owner' },
     founder: { name: 'Eunhae Bae', role: 'Founder and original head chef' },
   },
 
