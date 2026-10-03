@@ -138,7 +138,7 @@ export const menu: MenuCategory[] = [
         romanized: 'Gamjatang',
         price: 16.99,
         description:
-          'Pork spine simmered with napa cabbage from the family garden, potatoes, shiitake, bean sprouts and wild sesame seeds. The kitchen uses enough sesame to make the broth sweeter and less red than most — filling without sitting heavy.',
+          'Pork spine simmered with napa cabbage, potatoes, shiitake, bean sprouts and wild sesame seeds. The kitchen uses enough sesame to make the broth sweeter and less red than most — filling without sitting heavy.',
         image: 'gamjatang',
         tags: ['signature', 'spicy', 'hearty'],
         serves: null,

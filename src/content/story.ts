@@ -44,7 +44,7 @@ export const story: StoryChapter[] = [
     eyebrow: 'How it is cooked',
     heading: 'From scratch, and from the garden',
     body: [
-      'The kitchen makes its components from scratch and grows vegetables for the restaurant in the family garden — the napa cabbage in the gamjatang comes from there.',
+      'The kitchen makes its components from scratch and grows vegetables for the restaurant in the family garden — including Korean peppers and sesame leaves.',
       'The noodles are made by hand: kalguksu rolled and cut, sujebi torn piece by piece into the broth. Both take time that a busy kitchen could easily save. Neither has been dropped.',
     ],
     image: 'kalguksu',
