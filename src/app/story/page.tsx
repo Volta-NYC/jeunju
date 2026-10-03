@@ -62,10 +62,7 @@ export default function StoryPage() {
         </div>
       </div>
 
-      {/*
-        §7.2 — sources conflict on the founding year and we have not resolved it. Saying
-        so plainly is both honest and a better story than a number we cannot stand behind.
-      */}
+      {/* The owner's two dates: the Korea opening and the move to Flushing. */}
       <section className="grain relative overflow-hidden bg-obsidian-deep py-section">
         <div
           aria-hidden

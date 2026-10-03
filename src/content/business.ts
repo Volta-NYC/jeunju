@@ -4,7 +4,7 @@ import type { Fact } from './types';
  * Core business identity and contact data.
  *
  * Address and phone were identical across every source checked, so they are published
- * plainly. Hours and founding year were NOT — see `hours` and `founded` below.
+ * plainly. Hours remain unresolved; the owner has confirmed the founding history.
  */
 
 export const business = {
@@ -62,17 +62,15 @@ export const business = {
   } satisfies Fact<{ open: string; close: string; days: string }>,
 
   /**
-   * §7.2 — "since 1999" (Facebook, aggregators, QNS.com) vs. "Since 1985" painted on the
-   * awning (per a 2017 press visit). Unresolved, so the site never prints a founding
-   * year as a headline number. The story page tells both, as a story.
+   * Owner-confirmed history: opened in Korea in 1985, then moved to Flushing in 2002.
+   * This resolves the conflicting dates in the original research report.
    */
   founded: {
-    value: null,
-    confidence: 'conflicting' as const,
-    source: 'Facebook/aggregators say 1999; the awning reads "Since 1985"',
+    value: 1985,
+    confidence: 'confirmed' as const,
+    source: 'Owner confirmation',
     note:
-      'Ask the owner what 1985 refers to — possibly her mother\'s cooking background or an ' +
-      'earlier establishment. Until then, publish no founding year as fact.',
+      'The restaurant originally opened in Korea in 1985 and moved to Flushing in 2002.',
   } satisfies Fact<number | null>,
 
   people: {

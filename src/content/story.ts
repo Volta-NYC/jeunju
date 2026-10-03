@@ -24,7 +24,7 @@ export const story: StoryChapter[] = [
     eyebrow: 'The founder',
     heading: 'Eunhae Bae',
     body: [
-      'Eunhae Bae came from Jeonju and opened the kitchen on 150th Street. She was the original head chef, and the recipes on the menu today are hers.',
+      'Eunhae Bae came from Jeonju and first opened the restaurant in Korea in 1985, before moving it to Flushing in 2002. She was the original head chef, and the recipes on the menu today are hers.',
       'Her photograph is still on the awning outside, with a year painted underneath it. Regulars have walked past it for decades.',
     ],
     image: 'atmos-onggi',
@@ -52,13 +52,13 @@ export const story: StoryChapter[] = [
 ];
 
 /**
- * §7.2: sources conflict on the founding year. Rather than pick one, the story page says
- * so plainly — which is both honest and more interesting than a number.
+ * The owner confirmed both dates: the restaurant opened in Korea in 1985 and moved
+ * to Flushing in 2002. Keep the two-date question that she liked, then tell the story.
  */
 export const foundingYearNote = {
-  heading: 'Since 1985. Or 1999.',
+  heading: 'Since 1985. Or 2002.',
   body:
-    'The awning says 1985. Facebook, and most listings, say the restaurant has been at this address since 1999. Both have been true in print for years and we have not tried to resolve it here. If you ask Sopia in person, you will get the real answer — which is more than a website can offer.',
+    'The awning says 1985. The restaurant first opened in Korea that year, then moved to Flushing in 2002. Both dates belong to the same family’s kitchen. If you ask Sopia in person, you will hear the story behind them — which is more than a website can offer.',
 };
 
 export const testimonials: Testimonial[] = [

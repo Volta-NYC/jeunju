@@ -147,9 +147,9 @@ async function main() {
   out.push('      Google range next to a "call to confirm" note, and publishes no hours to');
   out.push('      search engines at all. Fix in src/content/business.ts -> hours.');
   out.push('');
-  out.push('  [ ] FOUNDING YEAR. The awning says 1985; Facebook and the listings say 1999.');
-  out.push('      The story page currently tells this as a story rather than picking one.');
-  out.push('      Ask what 1985 refers to. Fix in src/content/business.ts -> founded.');
+  out.push('  [x] FOUNDING HISTORY. The owner confirmed the restaurant opened in Korea in');
+  out.push('      1985 and moved to Flushing in 2002. Recorded in src/content/business.ts');
+  out.push('      and told on the story page with the two-date heading she liked.');
   out.push('');
   out.push('  [ ] DOMAIN. Three surfaced: jeunjukoreanfood.com (live, blocked to crawlers),');
   out.push('      jeunjurestaurant.com (parked/for sale), jeunjuauthentichome.com (an auto-');

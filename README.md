@@ -38,9 +38,10 @@ form — everything points at the phone number.
 
 **Conflicts are surfaced, not resolved silently.** Three sources give three different sets
 of opening hours, so the site shows the best-corroborated range beside a "call to confirm"
-link, and publishes *no* `openingHours` in its structured data. Two sources give two
-different founding years, so the story page tells that as a story instead of picking one.
-These carry `confidence: 'conflicting'` in `business.ts` with a note on what to ask.
+link, and publishes *no* `openingHours` in its structured data. These hours carry
+`confidence: 'conflicting'` in `business.ts` with a note on what to ask. The owner has
+since confirmed the founding history: the restaurant opened in Korea in 1985 and moved
+to Flushing in 2002. The story page keeps its two-date heading and explains both dates.
 
 **Review text is paraphrased, never quoted,** and always attributed to its platform.
 
